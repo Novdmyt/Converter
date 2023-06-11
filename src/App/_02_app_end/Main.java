@@ -8,4 +8,7 @@ public class Main {
     private static double convertMilleToKilometer(double mille){
         return mille * 1.60934;
     }
+    private static double convertKilometerToMille(double kilometer){
+        return kilometer / 1.60934;
+    }
 }
